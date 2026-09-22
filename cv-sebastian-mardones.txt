@@ -1,0 +1,34 @@
+SEBASTIÁN IGNACIO MARDONES ARAYA
+Desarrollador Backend / Full Stack
+
+San José de Maipo, Santiago, Región Metropolitana
+Email: se.mardones@duocuc.cl
+Teléfono: +56 9 8155 8806
+
+PERFIL
+Desarrollador backend en formación, con experiencia full stack, QA, arquitectura de sistemas escalables y seguridad en aplicaciones. Interesado en Java, Node.js/TypeScript, APIs, bases de datos, integración de ERP, documentación de proyectos, levantamiento de requisitos y sistemas de automatización.
+
+EXPERIENCIA
+
+Orígenes Resto Bar | Especialista de Marketing Digital | Sep. 2025 - Presente
+Desarrollo e implementación de soluciones web, integración de APIs para contenido dinámico y procesamiento de datos. Optimización del consumo de servicios REST y de llamadas backend.
+
+Asesor 25 | QA y Desarrollador Full Stack | 4 meses
+Creación de proyectos desde cero, desde una estructura sólida de backend a interfaces intuitivas para clientes. Migración completa de un proyecto con frontend y backend juntos en VS Code, trasladando el backend a Java con IntelliJ. Reemplazo de Inertia por una arquitectura por capas que reforzó seguridad, integridad y mantenibilidad. Testing, debugging y validación de datos financieros sensibles.
+
+PROYECTOS
+
+Smartícula | Sistema académico
+Backend con Java y SQL, orientación a objetos, patrones de diseño, modelo relacional normalizado y consultas optimizadas.
+
+Portal Web Orígenes Resto Bar
+Aplicación web con frontend y backend, consumo de APIs REST para catálogo dinámico y optimización de servicios de datos.
+
+TECNOLOGÍAS
+Java, Spring Boot, Node.js, TypeScript, SQL/MySQL, REST APIs, JWT/OAuth2, React, Vue, Git/GitHub, HTML/CSS, OWASP, Scrum e IntelliJ.
+
+FORMACIÓN
+Egresado de Analista Programador en Sistemas, Duoc UC.
+
+IDIOMAS
+Inglés intermedio: lectura de documentación técnica y comunicación en equipos internacionales.

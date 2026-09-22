@@ -1,0 +1,144 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Portafolio de Sebastian, desarrollador Full Stack con foco en Backend." />
+    <title>Sebastián Mardones — Desarrollador Backend</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="page-noise"></div>
+    <header class="nav-wrap">
+      <div class="nav container">
+      <a class="brand" href="#inicio" aria-label="Inicio">SB<span>.</span></a>
+      <nav aria-label="Navegación principal">
+        <a href="#perfil">Perfil</a>
+        <a href="#skills">Stack</a>
+        <a href="#proyectos">Proyectos</a>
+        <a href="#curriculum">Currículum</a>
+        <a href="#contacto">Contacto</a>
+      </nav>
+      <div class="nav-links">
+        <a class="github-link" href="https://github.com/" target="_blank" rel="noreferrer" aria-label="GitHub personal">GH <span>↗</span></a>
+        <a class="nav-cta" href="mailto:se.mardones@duocuc.cl">Hablemos <span>↗</span></a>
+      </div>
+      </div>
+    </header>
+
+    <main>
+      <section id="inicio" class="hero container">
+        <div class="hero-copy reveal">
+          <p class="eyebrow"><span></span> Disponible para nuevos desafíos</p>
+          <h1>Construyo sistemas seguros que hacen que las ideas <em>funcionen.</em></h1>
+          <p class="intro">Hola, soy <strong>Sebastián Ignacio Mardones Araya</strong>. Desarrollador backend en formación, con experiencia full stack, QA y una mirada muy puesta en la arquitectura y la seguridad. Integración de ERP, levantamiento de requisitos con clientes, documentación de proyectos y análisis de sistemas de automatización.</p>
+          <ul class="personal-data" aria-label="Información personal">
+            <li><span>⌖</span> San José de Maipo, Santiago</li>
+            <li><span>·</span> 26 años</li>
+          </ul>
+          <div class="hero-actions">
+            <a class="button button-primary" href="#perfil">Conoce mi perfil <span>↓</span></a>
+            <a class="button button-text" href="#contacto">Escríbeme <span>↗</span></a>
+          </div>
+        </div>
+
+        <aside class="hero-card reveal reveal-delay" aria-label="Fotografía de Sebastián Mardones">
+          <img src="/assets/sebastian-mardones.png" alt="Sebastián Mardones" />
+          <span class="card-top"><span class="status-dot"></span><span>SANTIAGO · RM</span></span>
+          <span class="chile-time"><span id="chile-date">CARGANDO FECHA</span><strong id="chile-clock">00:00:00</strong></span>
+          <span class="card-footer"><span>DISPONIBILIDAD<br /><b>INMEDIATA</b></span></span>
+        </aside>
+      </section>
+
+      <section id="perfil" class="statement container">
+        <p class="section-label reveal">01 / SOBRE MÍ</p>
+        <div class="reveal reveal-delay">
+          <h2>No solo escribo código.<br />Diseño cómo debe <span>responder</span>.</h2>
+          <p>Me apasiona construir soluciones robustas, escalables y mantenibles: desde APIs y bases de datos hasta interfaces claras. Trabajo con una mentalidad de seguridad en profundidad y atención al detalle que también desarrollé en QA.</p>
+        </div>
+      </section>
+
+      <section id="skills" class="skills-section">
+        <div class="container">
+          <div class="section-heading reveal">
+            <p class="section-label">02 / CAPACIDADES</p>
+            <h2>Mi forma de aportar</h2>
+          </div>
+          <div class="capabilities">
+            <article class="reveal">
+              <span class="number">01</span>
+              <h3>Backend &amp;<br />Arquitectura</h3>
+              <p>APIs REST con Java, Node.js y TypeScript; lógica de negocio, patrones OOP, migraciones y sistemas preparados para crecer.</p>
+              <span class="plus">+</span>
+            </article>
+            <article class="reveal reveal-delay">
+              <span class="number">02</span>
+              <h3>Desarrollo<br />Full Stack</h3>
+              <p>Aplicaciones completas con React o Vue, interfaces responsivas y una conexión cuidadosa entre frontend, datos y servicios.</p>
+              <span class="plus">+</span>
+            </article>
+            <article class="reveal reveal-delay-2">
+              <span class="number">03</span>
+              <h3>Calidad &amp;<br />Seguridad</h3>
+              <p>Testing, debugging de producción, OWASP Top 10, validación de datos sensibles y detección de vulnerabilidades.</p>
+              <span class="plus">+</span>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="stack container">
+        <p class="section-label reveal">03 / STACK</p>
+        <div class="stack-layout reveal reveal-delay">
+          <h2>Herramientas que<br />uso para <em>crear.</em></h2>
+          <div class="skill-list">
+            <span>Java</span><span>Spring Boot</span><span>Node.js</span><span>TypeScript</span><span>SQL / MySQL</span><span>REST APIs</span><span>JWT / OAuth2</span><span>React</span><span>Vue</span><span>Git / GitHub</span><span>HTML / CSS</span><span>OWASP</span><span>Scrum</span><span>IntelliJ</span>
+          </div>
+        </div>
+      </section>
+
+      <section id="proyectos" class="selected-work container">
+        <p class="section-label reveal">04 / EXPERIENCIA Y PROYECTOS</p>
+        <div class="work-list">
+          <article class="work-item reveal">
+            <div class="work-meta"><span>PROYECTO PERSONAL · 2026</span><span>HYDROCONTROL</span></div>
+            <div class="work-body"><h3>Gestión de calidad para centrales hidroeléctricas</h3><p>Plataforma para ITOs que centraliza inspecciones de terreno, no conformidades, evidencias, documentos y flujos de aprobación. Está diseñada con trazabilidad por usuario, control de roles y una arquitectura por capas para apoyar el control de calidad en proyectos hidroeléctricos.</p><a href="https://github.com/SebaOwsla/HydroControl" target="_blank" rel="noreferrer">Ver repositorio ↗</a></div>
+          </article>
+          <article class="work-item reveal reveal-delay">
+            <div class="work-meta"><span>2025 — PRESENTE</span><span>ORÍGENES RESTO BAR</span></div>
+            <div class="work-body"><h3>Soluciones web y presencia digital</h3><p>Desarrollo e implementación de soluciones web; integración de APIs para contenido dinámico y procesamiento de datos. Optimicé el consumo de servicios REST y las llamadas al backend para mejorar el rendimiento.</p><a href="https://origenesrestobar.cl" target="_blank" rel="noreferrer">Ver sitio ↗</a></div>
+          </article>
+          <article class="work-item reveal reveal-delay-2">
+            <div class="work-meta"><span>EXPERIENCIA FULL STACK &amp; QA</span><span>ASESOR 25</span></div>
+            <div class="work-body"><h3>Plataforma contable empresarial</h3><p>Creación de proyectos desde cero: desde una estructura sólida de backend hasta interfaces frontend intuitivas y amigables para el cliente. Realicé la migración completa de un proyecto que reunía frontend y backend en VS Code, trasladando el backend a Java con IntelliJ. El sistema utilizaba inicialmente Inertia; tras la migración, se reemplazó por una arquitectura por capas que reforzó la seguridad, la integridad y la mantenibilidad. También realicé testing integral, debugging y validación de datos financieros sensibles.</p></div>
+          </article>
+          <article class="work-item reveal">
+            <div class="work-meta"><span>PROYECTO ACADÉMICO</span><span>SMARTÍCULA</span></div>
+            <div class="work-body"><h3>Sistema académico con Java y SQL</h3><p>Backend con orientación a objetos y patrones de diseño, modelado relacional normalizado y consultas optimizadas para cumplir requerimientos académicos de forma mantenible.</p></div>
+          </article>
+        </div>
+      </section>
+
+      <section id="contacto" class="contact container">
+        <p class="section-label reveal">05 / CONTACTO</p>
+        <h2 class="reveal reveal-delay">¿Tienes un problema<br />interesante? <a href="mailto:se.mardones@duocuc.cl">Hablemos.</a></h2>
+        <div class="contact-bottom reveal reveal-delay-2">
+          <p>Disponible para colaborar en proyectos, equipos y buenas ideas. Inglés intermedio para lectura de documentación técnica y trabajo con equipos internacionales.</p>
+          <div><a href="mailto:se.mardones@duocuc.cl">se.mardones@duocuc.cl</a><a href="https://wa.me/56981558806?text=Hola%20Sebasti%C3%A1n%2C%20vi%20tu%20portafolio%20y%20me%20gustar%C3%ADa%20contactarte." target="_blank" rel="noreferrer">WhatsApp ↗</a></div>
+        </div>
+      </section>
+      <section id="curriculum" class="cv-download container reveal">
+        <div>
+          <p class="section-label">06 / CURRÍCULUM</p>
+          <h2>CV PARA FINES<br /><em>LABORALES.</em></h2>
+        </div>
+        <a class="cv-button" href="cv-sebastian-mardones.html" download>Descargar CV <span>↓</span></a>
+      </section>
+    </main>
+    <footer class="container"><span>© 2026 SEBASTIÁN MARDONES</span><span>DISEÑADO &amp; DESARROLLADO CON INTENCIÓN DE FINES LABORALES</span></footer>
+    <script type="module" src="main.js"></script>
+  </body>
+</html>
