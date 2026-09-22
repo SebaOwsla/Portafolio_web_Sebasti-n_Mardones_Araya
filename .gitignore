@@ -1,0 +1,11 @@
+# Dependencies and generated output
+node_modules/
+dist/
+
+# HydroControl is maintained in its own repository
+hydrocontrol/
+
+# Editor / OS files
+.vscode/
+.idea/
+.DS_Store
