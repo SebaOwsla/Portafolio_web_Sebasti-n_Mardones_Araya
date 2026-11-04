@@ -5,6 +5,9 @@ dist/
 # HydroControl is maintained in its own repository
 hydrocontrol/
 
+# GridWatch is maintained in its own repository
+gridwatch/
+
 # Editor / OS files
 .vscode/
 .idea/
